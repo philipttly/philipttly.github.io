@@ -20,7 +20,7 @@ body {
 h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
-    color: #4A4E69;
+    color: #4a4e69;
 }
 
 p {
@@ -34,7 +34,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #4CAF50;
+    color: #4a4e69;
     margin: 0 10px;
     font-weight: bold;
     font-size: 1.2rem;
@@ -50,7 +50,7 @@ footer {
 }
 
 footer a {
-    color: #4CAF50;
+    color: #4a4e69;
     text-decoration: none;
 }
 
