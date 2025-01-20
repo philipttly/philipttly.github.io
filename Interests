@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interests - Philip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Interests</h1>
+        <p>
+            I enjoy blending creativity with innovation. My hobbies include crafting macramé bracelets, crocheting, and exploring ways to connect design with storytelling. 
+        </p>
+        <p>
+            Travel is another passion of mine. Whether it's exploring the vibrant wine culture of Okanagan or discovering hidden gems in bustling cities, I value experiences that bring people together.
+        </p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+        </nav>
+    </div>
+</body>
+</html>
