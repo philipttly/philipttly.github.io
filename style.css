@@ -52,6 +52,19 @@ header {
     width: 100%; /* Scale image to fit the container */
     height: 100%; /* Scale image to fit the container */
     object-fit: cover; /* Prevent stretching, crops if necessary */
+    object-position: center center; /* Center the face inside the circle */
+}
+
+/* Bio Section (Textbox) */
+.bio-box {
+    background-color: white; /* White background for the bio box */
+    padding: 20px; /* Add spacing inside the box */
+    border-radius: 8px; /* Slightly round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    max-width: 600px; /* Limit the box width */
+    margin: 20px auto; /* Center the box */
+    text-align: center; /* Center the text */
+    color: #22223B; /* Text color */
 }
 
 /* Main Content */
