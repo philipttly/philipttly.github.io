@@ -34,18 +34,24 @@ header {
     text-decoration: underline;
 }
 
-/* Profile Picture */
+/* Profile Picture Container */
 .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular container */
+    overflow: hidden; /* Ensures the image stays within bounds */
     display: flex;
     justify-content: center;
-    margin-top: 100px; /* Adjust this to position picture lower or higher */
+    align-items: center;
+    margin: 100px auto; /* Centers the container */
+    border: 4px solid #4A4E69; /* Add a border */
 }
 
+/* Image Inside the Container */
 .profile-pic img {
-    width: 200px; /* Make the picture larger */
-    height: 200px;
-    border-radius: 50%;
-    border: 4px solid #4A4E69; /* Add a border matching the theme */
+    width: 100%; /* Scale image to fit the container */
+    height: 100%; /* Scale image to fit the container */
+    object-fit: cover; /* Prevent stretching, crops if necessary */
 }
 
 /* Main Content */
