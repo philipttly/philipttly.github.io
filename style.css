@@ -10,8 +10,8 @@ body {
 /* Header Section */
 header {
     position: absolute;
-    top: 5;
-    left: 5;
+    top: 50;
+    left: 50;
     width: 100%;
     padding: 10px;
     background-color: transparent;
