@@ -7,18 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Interests</h1>
-        <p>
-            I enjoy blending creativity with innovation. My hobbies include crafting macramé bracelets, crocheting, and exploring ways to connect design with storytelling. 
-        </p>
-        <p>
-            Travel is another passion of mine. Whether it's exploring the vibrant wine culture of Okanagan or discovering hidden gems in bustling cities, I value experiences that bring people together.
-        </p>
-        <nav>
+    <header>
+        <nav class="links">
             <a href="index.html">Home</a>
             <a href="education.html">Education</a>
         </nav>
-    </div>
+    </header>
+
+    <main>
+        <h1>Interests</h1>
+
+        <!-- Growth and Development Section -->
+        <div class="bio-box">
+            <h2>Growth and Development</h2>
+            <p>
+                I am passionate about continuous learning and self-improvement. Whether it's exploring new concepts in neuroscience or mastering a new skill, I thrive on growth opportunities. I believe that personal and professional development go hand in hand to achieve lasting success.
+            </p>
+        </div>
+
+        <!-- Strategy Section -->
+        <div class="bio-box">
+            <h2>Strategy</h2>
+            <p>
+                Strategic thinking fascinates me, especially in product management and innovation. I enjoy analyzing complex problems, identifying key challenges, and crafting actionable solutions that drive meaningful outcomes for businesses and individuals alike.
+            </p>
+        </div>
+
+        <!-- Plants and Gardening Section -->
+        <div class="bio-box">
+            <h2>Plants and Gardening</h2>
+            <p>
+                Gardening provides me with a sense of peace and creativity. Whether nurturing houseplants or experimenting with outdoor gardening, I find joy in connecting with nature and fostering growth in a literal sense.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Get in touch: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </footer>
 </body>
 </html>
