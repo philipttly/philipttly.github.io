@@ -36,8 +36,8 @@ header {
 
 /* Profile Picture Container */
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%; /* Circular container */
     overflow: hidden; /* Ensures the image stays within bounds */
     display: flex;
